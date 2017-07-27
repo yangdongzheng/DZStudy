@@ -6,9 +6,9 @@
 //  Copyright © 2017年 Dong Zheng Tech. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DZViewController.h"
 
-@interface DZBaseViewController : UIViewController
+@interface DZBaseViewController : DZViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray *dataSource;
 

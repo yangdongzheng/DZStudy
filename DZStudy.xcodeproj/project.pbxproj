@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F3556381E83D6F5001AC486 /* DZRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3556371E83D6F5001AC486 /* DZRuntimeViewController.m */; };
-		7F35563D1E83D76C001AC486 /* DZMultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F35563C1E83D76C001AC486 /* DZMultithreadingViewController.m */; };
 		7F370F851F1355F100BDC51C /* DZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F841F1355F100BDC51C /* DZLoginViewController.m */; };
 		7F370F881F135B2D00BDC51C /* TransPushTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F871F135B2D00BDC51C /* TransPushTool.m */; };
 		7F370F8B1F135BC900BDC51C /* TransPopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F8A1F135BC900BDC51C /* TransPopTool.m */; };
@@ -16,6 +14,17 @@
 		7F370F911F13644700BDC51C /* UIViewController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F901F13644700BDC51C /* UIViewController+Custom.m */; };
 		7F370F941F1365BD00BDC51C /* DZPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F931F1365BD00BDC51C /* DZPopTransition.m */; };
 		7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CEFA1F28AE2C00AA61E4 /* DZSortViewController.m */; };
+		7F67CF021F29E0F600AA61E4 /* DZMultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CEFE1F29E0F600AA61E4 /* DZMultithreadingViewController.m */; };
+		7F67CF031F29E0F600AA61E4 /* DZRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF011F29E0F600AA61E4 /* DZRuntimeViewController.m */; };
+		7F67CF071F29E20400AA61E4 /* DZDesignPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF061F29E20400AA61E4 /* DZDesignPatternViewController.m */; };
+		7F67CF0B1F29E26300AA61E4 /* DZRunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF0A1F29E26300AA61E4 /* DZRunloopViewController.m */; };
+		7F67CF141F29E2F700AA61E4 /* GCDLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF0D1F29E2F700AA61E4 /* GCDLoadViewController.m */; };
+		7F67CF151F29E2F700AA61E4 /* LoadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF0F1F29E2F700AA61E4 /* LoadImageOperation.m */; };
+		7F67CF161F29E2F700AA61E4 /* NSOperationLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF111F29E2F700AA61E4 /* NSOperationLoadViewController.m */; };
+		7F67CF171F29E2F700AA61E4 /* NSThreadLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF131F29E2F700AA61E4 /* NSThreadLoadViewController.m */; };
+		7F67CF1C1F29E35000AA61E4 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF1B1F29E35000AA61E4 /* UIView+Toast.m */; };
+		7F67CF201F29EC6500AA61E4 /* OFBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */; };
+		7F67CF231F29EC8C00AA61E4 /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF221F29EC8C00AA61E4 /* DZViewController.m */; };
 		7F77C7B81E84C36000CDAFE0 /* DZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */; };
 		7F77C7B91E84C36000CDAFE0 /* DZBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B71E84C36000CDAFE0 /* DZBaseViewModel.m */; };
 		7F77C7BF1E84CB7300CDAFE0 /* HomeViewDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F77C7BE1E84CB7300CDAFE0 /* HomeViewDataSource.plist */; };
@@ -32,10 +41,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F3556361E83D6F5001AC486 /* DZRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRuntimeViewController.h; sourceTree = "<group>"; };
-		7F3556371E83D6F5001AC486 /* DZRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRuntimeViewController.m; sourceTree = "<group>"; };
-		7F35563B1E83D76C001AC486 /* DZMultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMultithreadingViewController.h; sourceTree = "<group>"; };
-		7F35563C1E83D76C001AC486 /* DZMultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMultithreadingViewController.m; sourceTree = "<group>"; };
 		7F370F831F1355F100BDC51C /* DZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLoginViewController.h; sourceTree = "<group>"; };
 		7F370F841F1355F100BDC51C /* DZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLoginViewController.m; sourceTree = "<group>"; };
 		7F370F861F135B2D00BDC51C /* TransPushTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransPushTool.h; sourceTree = "<group>"; };
@@ -50,6 +55,28 @@
 		7F370F931F1365BD00BDC51C /* DZPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPopTransition.m; sourceTree = "<group>"; };
 		7F67CEF91F28AE2C00AA61E4 /* DZSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSortViewController.h; sourceTree = "<group>"; };
 		7F67CEFA1F28AE2C00AA61E4 /* DZSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSortViewController.m; sourceTree = "<group>"; };
+		7F67CEFD1F29E0F600AA61E4 /* DZMultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMultithreadingViewController.h; sourceTree = "<group>"; };
+		7F67CEFE1F29E0F600AA61E4 /* DZMultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMultithreadingViewController.m; sourceTree = "<group>"; };
+		7F67CF001F29E0F600AA61E4 /* DZRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRuntimeViewController.h; sourceTree = "<group>"; };
+		7F67CF011F29E0F600AA61E4 /* DZRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRuntimeViewController.m; sourceTree = "<group>"; };
+		7F67CF051F29E20400AA61E4 /* DZDesignPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDesignPatternViewController.h; sourceTree = "<group>"; };
+		7F67CF061F29E20400AA61E4 /* DZDesignPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDesignPatternViewController.m; sourceTree = "<group>"; };
+		7F67CF091F29E26300AA61E4 /* DZRunloopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRunloopViewController.h; sourceTree = "<group>"; };
+		7F67CF0A1F29E26300AA61E4 /* DZRunloopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRunloopViewController.m; sourceTree = "<group>"; };
+		7F67CF0C1F29E2F700AA61E4 /* GCDLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDLoadViewController.h; sourceTree = "<group>"; };
+		7F67CF0D1F29E2F700AA61E4 /* GCDLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDLoadViewController.m; sourceTree = "<group>"; };
+		7F67CF0E1F29E2F700AA61E4 /* LoadImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadImageOperation.h; sourceTree = "<group>"; };
+		7F67CF0F1F29E2F700AA61E4 /* LoadImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadImageOperation.m; sourceTree = "<group>"; };
+		7F67CF101F29E2F700AA61E4 /* NSOperationLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationLoadViewController.h; sourceTree = "<group>"; };
+		7F67CF111F29E2F700AA61E4 /* NSOperationLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationLoadViewController.m; sourceTree = "<group>"; };
+		7F67CF121F29E2F700AA61E4 /* NSThreadLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadLoadViewController.h; sourceTree = "<group>"; };
+		7F67CF131F29E2F700AA61E4 /* NSThreadLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadLoadViewController.m; sourceTree = "<group>"; };
+		7F67CF1A1F29E35000AA61E4 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		7F67CF1B1F29E35000AA61E4 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		7F67CF1E1F29EC6500AA61E4 /* OFBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFBlockViewController.h; sourceTree = "<group>"; };
+		7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFBlockViewController.m; sourceTree = "<group>"; };
+		7F67CF211F29EC8C00AA61E4 /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
+		7F67CF221F29EC8C00AA61E4 /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
 		7F77C7B31E84C36000CDAFE0 /* DZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewController.h; sourceTree = "<group>"; };
 		7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBaseViewController.m; sourceTree = "<group>"; };
 		7F77C7B61E84C36000CDAFE0 /* DZBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewModel.h; sourceTree = "<group>"; };
@@ -89,46 +116,15 @@
 		7F3556331E83D6E2001AC486 /* MVCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7F67CF1D1F29EC5800AA61E4 /* Block */,
+				7F67CF081F29E25800AA61E4 /* Runloop */,
+				7F67CF041F29E1E900AA61E4 /* DesignPattern */,
+				7F67CEFC1F29E0F600AA61E4 /* Multithreading */,
+				7F67CEFF1F29E0F600AA61E4 /* Rumtime */,
 				7F67CEF81F28AE0B00AA61E4 /* Sort */,
 				7F77C7B11E84C36000CDAFE0 /* BaseView */,
-				7F3556391E83D743001AC486 /* Multithreading */,
-				7F3556341E83D6E2001AC486 /* Rumtime */,
 			);
 			path = MVCKit;
-			sourceTree = "<group>";
-		};
-		7F3556341E83D6E2001AC486 /* Rumtime */ = {
-			isa = PBXGroup;
-			children = (
-				7F3556351E83D6E2001AC486 /* Controller */,
-			);
-			path = Rumtime;
-			sourceTree = "<group>";
-		};
-		7F3556351E83D6E2001AC486 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7F3556361E83D6F5001AC486 /* DZRuntimeViewController.h */,
-				7F3556371E83D6F5001AC486 /* DZRuntimeViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		7F3556391E83D743001AC486 /* Multithreading */ = {
-			isa = PBXGroup;
-			children = (
-				7F35563A1E83D743001AC486 /* Controller */,
-			);
-			path = Multithreading;
-			sourceTree = "<group>";
-		};
-		7F35563A1E83D743001AC486 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7F35563B1E83D76C001AC486 /* DZMultithreadingViewController.h */,
-				7F35563C1E83D76C001AC486 /* DZMultithreadingViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		7F67CEF81F28AE0B00AA61E4 /* Sort */ = {
@@ -138,6 +134,76 @@
 				7F67CEFA1F28AE2C00AA61E4 /* DZSortViewController.m */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		7F67CEFC1F29E0F600AA61E4 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF0C1F29E2F700AA61E4 /* GCDLoadViewController.h */,
+				7F67CF0D1F29E2F700AA61E4 /* GCDLoadViewController.m */,
+				7F67CF0E1F29E2F700AA61E4 /* LoadImageOperation.h */,
+				7F67CF0F1F29E2F700AA61E4 /* LoadImageOperation.m */,
+				7F67CF101F29E2F700AA61E4 /* NSOperationLoadViewController.h */,
+				7F67CF111F29E2F700AA61E4 /* NSOperationLoadViewController.m */,
+				7F67CF121F29E2F700AA61E4 /* NSThreadLoadViewController.h */,
+				7F67CF131F29E2F700AA61E4 /* NSThreadLoadViewController.m */,
+				7F67CEFD1F29E0F600AA61E4 /* DZMultithreadingViewController.h */,
+				7F67CEFE1F29E0F600AA61E4 /* DZMultithreadingViewController.m */,
+			);
+			path = Multithreading;
+			sourceTree = "<group>";
+		};
+		7F67CEFF1F29E0F600AA61E4 /* Rumtime */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF001F29E0F600AA61E4 /* DZRuntimeViewController.h */,
+				7F67CF011F29E0F600AA61E4 /* DZRuntimeViewController.m */,
+			);
+			path = Rumtime;
+			sourceTree = "<group>";
+		};
+		7F67CF041F29E1E900AA61E4 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF051F29E20400AA61E4 /* DZDesignPatternViewController.h */,
+				7F67CF061F29E20400AA61E4 /* DZDesignPatternViewController.m */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		7F67CF081F29E25800AA61E4 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF091F29E26300AA61E4 /* DZRunloopViewController.h */,
+				7F67CF0A1F29E26300AA61E4 /* DZRunloopViewController.m */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
+		7F67CF181F29E35000AA61E4 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF191F29E35000AA61E4 /* Toast */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		7F67CF191F29E35000AA61E4 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF1A1F29E35000AA61E4 /* UIView+Toast.h */,
+				7F67CF1B1F29E35000AA61E4 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		7F67CF1D1F29EC5800AA61E4 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF1E1F29EC6500AA61E4 /* OFBlockViewController.h */,
+				7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */,
+			);
+			path = Block;
 			sourceTree = "<group>";
 		};
 		7F77C7B11E84C36000CDAFE0 /* BaseView */ = {
@@ -154,6 +220,8 @@
 			children = (
 				7F77C7B31E84C36000CDAFE0 /* DZBaseViewController.h */,
 				7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */,
+				7F67CF211F29EC8C00AA61E4 /* DZViewController.h */,
+				7F67CF221F29EC8C00AA61E4 /* DZViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -220,6 +288,7 @@
 		7FDCF88D1E80DE1000408069 /* DZStudy */ = {
 			isa = PBXGroup;
 			children = (
+				7F67CF181F29E35000AA61E4 /* Categorys */,
 				7F77C7BD1E84CB3900CDAFE0 /* SourceFiles */,
 				7F77C7BA1E84CAC500CDAFE0 /* Commons */,
 				7F3556331E83D6E2001AC486 /* MVCKit */,
@@ -334,24 +403,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F67CF141F29E2F700AA61E4 /* GCDLoadViewController.m in Sources */,
+				7F67CF0B1F29E26300AA61E4 /* DZRunloopViewController.m in Sources */,
 				7F370F941F1365BD00BDC51C /* DZPopTransition.m in Sources */,
+				7F67CF1C1F29E35000AA61E4 /* UIView+Toast.m in Sources */,
 				7F370F851F1355F100BDC51C /* DZLoginViewController.m in Sources */,
 				7F77C7B81E84C36000CDAFE0 /* DZBaseViewController.m in Sources */,
 				7F77C7B91E84C36000CDAFE0 /* DZBaseViewModel.m in Sources */,
 				7F8220791E8F6D11003A06D2 /* TestObject.m in Sources */,
+				7F67CF171F29E2F700AA61E4 /* NSThreadLoadViewController.m in Sources */,
+				7F67CF031F29E0F600AA61E4 /* DZRuntimeViewController.m in Sources */,
 				7FDCF8931E80DE1000408069 /* AppDelegate.m in Sources */,
+				7F67CF021F29E0F600AA61E4 /* DZMultithreadingViewController.m in Sources */,
 				7F77C7C31E84CC2100CDAFE0 /* DZUtils.m in Sources */,
+				7F67CF231F29EC8C00AA61E4 /* DZViewController.m in Sources */,
 				7F370F8B1F135BC900BDC51C /* TransPopTool.m in Sources */,
 				7F370F911F13644700BDC51C /* UIViewController+Custom.m in Sources */,
 				7F370F881F135B2D00BDC51C /* TransPushTool.m in Sources */,
 				7F370F8E1F135FDC00BDC51C /* DZPushTransition.m in Sources */,
 				7FDCF8901E80DE1000408069 /* main.m in Sources */,
-				7F35563D1E83D76C001AC486 /* DZMultithreadingViewController.m in Sources */,
 				7FDCF89C1E80DE1000408069 /* DZStudy.xcdatamodeld in Sources */,
 				7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */,
+				7F67CF161F29E2F700AA61E4 /* NSOperationLoadViewController.m in Sources */,
+				7F67CF201F29EC6500AA61E4 /* OFBlockViewController.m in Sources */,
 				7FDCF8B01E80DFCB00408069 /* ViewController.m in Sources */,
+				7F67CF151F29E2F700AA61E4 /* LoadImageOperation.m in Sources */,
 				7F82207C1E8F6D37003A06D2 /* TestObject+Test.m in Sources */,
-				7F3556381E83D6F5001AC486 /* DZRuntimeViewController.m in Sources */,
+				7F67CF071F29E20400AA61E4 /* DZDesignPatternViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

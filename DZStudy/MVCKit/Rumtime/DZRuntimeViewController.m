@@ -9,6 +9,10 @@
 #import "DZRuntimeViewController.h"
 #import "DZBaseViewModel.h"
 #import "DZLoginViewController.h"
+#import "DZUtils.h"
+#import "TestObject.h"
+
+#import <objc/runtime.h>
 
 @interface DZRuntimeViewController ()
 
@@ -19,19 +23,16 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
+        NSArray *titleArray = @[@"交换方法", @"关联属性", @"给类添加方法",
+                                @"JSPatch", @"模型转换", @"自动归档与解档",
+                                @"路由", @"插件开发", @"动态变量控制",
+                                @"将某些OC代码转为运行时代码"];
         NSMutableArray *dataArray = [NSMutableArray array];
-        {
+        [titleArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
             DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"JSPatch";
-            model.controllerName = nil;
+            model.title = obj;
             [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"黑魔法";
-            model.controllerName = nil;
-            [dataArray addObject:model];
-        }
+        }];
         self.dataSource = dataArray;
     }
     return self;
@@ -69,6 +70,20 @@
     [super viewDidLoad];
     
     self.title = @"Runtime";
+    
+    int count = 0;
+    objc_property_t *propertyList = class_copyPropertyList([TestObject class], &count);
+    for (unsigned int i=0; i<count; i++) {
+        const char *propertyName = property_getName(propertyList[i]);
+        NSLog(@"property---->%@", [NSString stringWithUTF8String:propertyName]);
+    }
+    
+    
+    Ivar *ivarList = class_copyIvarList([TestObject class], &count);
+    for (unsigned int i=0; i<count; i++) {
+        const char *ivarName = ivar_getName(ivarList[i]);
+        NSLog(@"ivarName---->%@", [NSString stringWithUTF8String:ivarName]);
+    }
 }
 
 - (void)pushLoginView:(id)sender {

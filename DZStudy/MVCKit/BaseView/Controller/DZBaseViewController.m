@@ -15,7 +15,7 @@
 
 static const CGFloat kMargin = 15.f;
 
-@interface DZBaseViewController () <UITableViewDelegate, UITableViewDataSource, UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
+@interface DZBaseViewController () <UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -34,12 +34,12 @@ static const CGFloat kMargin = 15.f;
 - (void)loadView {
     [super loadView];
     
-    self.view.backgroundColor = [UIColor whiteColor];
     [self buildTableView];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 
 - (void)viewWillLayoutSubviews {

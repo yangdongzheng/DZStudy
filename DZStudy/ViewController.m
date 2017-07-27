@@ -36,31 +36,96 @@
 - (instancetype)initWithCoder:aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        self.dataSource = [DZUtils dataSourceWithFileName:@"HomeViewDataSource"];
+//        self.dataSource = [DZUtils dataSourceWithFileName:@"HomeViewDataSource"];
+        NSMutableArray *dataArray = [NSMutableArray array];
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"Runloop";
+            model.controllerName = @"DZRunloopViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"Runtime";
+            model.controllerName = @"DZRuntimeViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"排序";
+            model.controllerName = @"DZSortViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"多线程";
+            model.controllerName = @"DZMultithreadingViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"设计模式";
+            model.controllerName = @"DZDesignPatternViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"Block";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"开源库";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"插件";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"网络";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"推送";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"架构演进";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"web交互";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = @"使用的工具";
+            model.controllerName = @"OFBlockViewController";
+            [dataArray addObject:model];
+        }
+        self.dataSource = dataArray;
     }
     return self;
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [_button addTarget:self action:@selector(pushLoginView:) forControlEvents:UIControlEventTouchUpInside];
-    
-    int count;
-
-    objc_property_t *propertyList = class_copyPropertyList([TestObject class], &count);
-    for (unsigned int i=0; i<count; i++) {
-        const char *propertyName = property_getName(propertyList[i]);
-        NSLog(@"property---->%@", [NSString stringWithUTF8String:propertyName]);
-    }
-    
-    
-    Ivar *ivarList = class_copyIvarList([TestObject class], &count);
-    for (unsigned int i=0; i<count; i++) {
-        const char *ivarName = ivar_getName(ivarList[i]);
-        NSLog(@"ivarName---->%@", [NSString stringWithUTF8String:ivarName]);
-    }
-    
     self.title = @"DZ";
 }
 

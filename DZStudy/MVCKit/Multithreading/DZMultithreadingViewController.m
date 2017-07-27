@@ -22,19 +22,19 @@
         {
             DZBaseViewModel *model = [DZBaseViewModel new];
             model.title = @"NSThread";
-            model.controllerName = nil;
+            model.controllerName = @"NSThreadLoadViewController";
             [dataArray addObject:model];
         }
         {
             DZBaseViewModel *model = [DZBaseViewModel new];
             model.title = @"GCD";
-            model.controllerName = nil;
+            model.controllerName = @"GCDLoadViewController";
             [dataArray addObject:model];
         }
         {
             DZBaseViewModel *model = [DZBaseViewModel new];
             model.title = @"NSOperation";
-            model.controllerName = nil;
+            model.controllerName = @"NSOperationLoadViewController";
             [dataArray addObject:model];
         }
         self.dataSource = dataArray;
