@@ -7,6 +7,7 @@
 //
 
 #import "OFBlockViewController.h"
+#import "DZBlockObject.h"
 
 @interface OFBlockViewController ()
 
@@ -16,6 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    void (^success)(id result) = ^(id result){
+        NSLog(@"%@", result);
+    };
+    DZBlockObject *blockObject = [DZBlockObject new];
+    blockObject.success = success;
+    blockObject.success(@"aaaa");
+    
     // Do any additional setup after loading the view.
 }
 

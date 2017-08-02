@@ -10,4 +10,11 @@
 
 @implementation DZBaseViewModel
 
++ (DZBaseViewModel *)modelWithTitle:(NSString *)title controllerName:(NSString *)controllerName {
+    DZBaseViewModel *model = [DZBaseViewModel new];
+    model.title = title;
+    model.controllerName = controllerName;
+    return model;
+}
+
 @end

@@ -10,8 +10,5 @@
 
 @interface ViewController : DZBaseViewController
 
-- (void)pushLoginView:(id)sender;
-
-
 @end
 

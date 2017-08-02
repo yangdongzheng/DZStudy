@@ -12,5 +12,9 @@
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *controllerName;
+@property (nonatomic, strong) NSString *methodName;
+@property (nonatomic, strong) NSString *webURL;
+
++ (DZBaseViewModel *)modelWithTitle:(NSString *)title controllerName:(NSString *)controllerName;
 
 @end

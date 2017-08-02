@@ -7,37 +7,83 @@
 //
 
 #import "DZSortViewController.h"
+#import "DZBaseViewModel.h"
+#import <SafariServices/SFSafariViewController.h>
 
-@interface DZSortViewController ()
+@interface DZSortViewController () <SFSafariViewControllerDelegate>
 
 @end
 
 @implementation DZSortViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        NSArray *titleArray = @[@"直接插入排序", @"希尔排序",
+                                @"选择排序", @"堆排序",
+                                @"冒泡快速", @"快速排序",
+                                @"归并排序"];
+        NSMutableArray *dataArray = [NSMutableArray array];
+        [titleArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+            DZBaseViewModel *model = [DZBaseViewModel new];
+            model.title = obj;
+            model.methodName = @"selectSortWithRow:";
+            model.webURL = @"http://www.jianshu.com/p/e6ad4423efcd";
+            [dataArray addObject:model];
+        }];
+        self.dataSource = dataArray;
+    }
+    return self;
+}
+
+#pragma mark - Override
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    // Override point for customization after application launch
+    DZBaseViewModel *model = [self.dataSource objectAtIndex:indexPath.row];
+    SEL selector = NSSelectorFromString(model.methodName);
+    [self performSelector:selector withObject:@(indexPath.row)];
     
-    //    int test[10]={1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+    SFSafariViewController *safariVC = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:model.webURL]];
+    safariVC.delegate = self;
+    [self presentViewController:safariVC animated:YES completion:nil];
+}
+
+#pragma mark - SFSafariViewControllerDelegate
+- (void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
+    [controller dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)selectSortWithRow:(NSInteger)row {
     int test[10]={9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
-    // 插入排序
-    //    InsertSort(test, 10);
-    //    ShellInsertSort(test, 10);
-    
-    // 选择排序
-    //    SelectSort(test, 10);
-    HeapSort(test, 10);
-    
-    
-    // 交互排序
-    //    bubbleSort(test, 10);
-    //    quickSort_recursive(test, 0, 9);
-    
-    // 归并排序
-    //    merge_sort(test, 10);
-    
-    
+    if (row == 0)  // 插入排序
+    {
+        InsertSort(test, 10);
+    }
+    else if (row == 1)
+    {
+        ShellInsertSort(test, 10);
+    }
+    else if (row == 2) // 选择排序
+    {
+        SelectSort(test, 10);
+    }
+    else if (row == 3)
+    {
+        HeapSort(test, 10);
+    }
+    else if (row == 4) // 交互排序
+    {
+        bubbleSort(test, 10);
+    }
+    else if (row == 5)
+    {
+        quickSort_recursive(test, 0, 9);
+    }
+    else if (row == 6)  // 归并排序
+    {
+        merge_sort(test, 10);
+    }
     for (int i = 0; i < 10; i++) {
         printf("%d, ",test[i]);
     }
@@ -160,7 +206,7 @@ void bubbleSort(int a[], int n)
     }
 }
 
-//快速排序
+// 快速排序
 void quickSort_recursive(int a[], int low, int high)
 {
     int first = low;

@@ -25,9 +25,51 @@
 		7F67CF1C1F29E35000AA61E4 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF1B1F29E35000AA61E4 /* UIView+Toast.m */; };
 		7F67CF201F29EC6500AA61E4 /* OFBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */; };
 		7F67CF231F29EC8C00AA61E4 /* DZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF221F29EC8C00AA61E4 /* DZViewController.m */; };
+		7F67CF271F3175B100AA61E4 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF261F3175B100AA61E4 /* UIImage+Category.m */; };
+		7F67CF3E1F3176B900AA61E4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF2B1F3176B800AA61E4 /* Dog.m */; };
+		7F67CF3F1F3176B900AA61E4 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF2D1F3176B800AA61E4 /* NSObject+Extension.m */; };
+		7F67CF401F3176B900AA61E4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF2F1F3176B800AA61E4 /* Person.m */; };
+		7F67CF411F3176B900AA61E4 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF321F3176B800AA61E4 /* NSObject+Category.m */; };
+		7F67CF421F3176B900AA61E4 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF351F3176B900AA61E4 /* Book.m */; };
+		7F67CF431F3176B900AA61E4 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF371F3176B900AA61E4 /* Cat.m */; };
+		7F67CF441F3176B900AA61E4 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF391F3176B900AA61E4 /* Fish.m */; };
+		7F67CF451F3176B900AA61E4 /* NSObject+JSONExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF3B1F3176B900AA61E4 /* NSObject+JSONExtension.m */; };
+		7F67CF461F3176B900AA61E4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF3D1F3176B900AA61E4 /* User.m */; };
+		7F67CF481F31784B00AA61E4 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F67CF471F31784B00AA61E4 /* model.json */; };
+		7F67CF4C1F317AB500AA61E4 /* DZRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF4B1F317AB500AA61E4 /* DZRouter.m */; };
+		7F67CF4F1F318A2600AA61E4 /* DZBlockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF4E1F318A2600AA61E4 /* DZBlockObject.m */; };
+		7F67CF541F31ABF100AA61E4 /* DZKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF531F31ABF100AA61E4 /* DZKVCViewController.m */; };
+		7F67CF571F31ABFD00AA61E4 /* DZKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF561F31ABFD00AA61E4 /* DZKVOViewController.m */; };
+		7F67CF6B1F31B25C00AA61E4 /* DZPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF6A1F31B25C00AA61E4 /* DZPresentViewController.m */; };
+		7F67CF6F1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF6E1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m */; };
+		7F67CF731F31B90800AA61E4 /* DZSportCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF721F31B90800AA61E4 /* DZSportCar.m */; };
+		7F67CF761F31B91700AA61E4 /* DZJeepCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF751F31B91700AA61E4 /* DZJeepCar.m */; };
+		7F67CF791F31B92400AA61E4 /* DZHatchbackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF781F31B92400AA61E4 /* DZHatchbackCar.m */; };
+		7F67CF7C1F31B93E00AA61E4 /* DZSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF7B1F31B93E00AA61E4 /* DZSimpleFactory.m */; };
+		7F67CF7F1F31BA8700AA61E4 /* DZCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF7E1F31BA8700AA61E4 /* DZCar.m */; };
+		7F67CF941F31BD1700AA61E4 /* HCDCalculateAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF831F31BD1700AA61E4 /* HCDCalculateAdd.m */; };
+		7F67CF951F31BD1700AA61E4 /* HCDCalculateDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF851F31BD1700AA61E4 /* HCDCalculateDivide.m */; };
+		7F67CF961F31BD1700AA61E4 /* HCDCalculateMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF871F31BD1700AA61E4 /* HCDCalculateMinus.m */; };
+		7F67CF971F31BD1700AA61E4 /* HCDCalcuteMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF891F31BD1700AA61E4 /* HCDCalcuteMultiply.m */; };
+		7F67CF981F31BD1700AA61E4 /* HCDfactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF8B1F31BD1700AA61E4 /* HCDfactory.m */; };
+		7F67CF991F31BD1700AA61E4 /* HCDfactoryAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF8D1F31BD1700AA61E4 /* HCDfactoryAdd.m */; };
+		7F67CF9A1F31BD1700AA61E4 /* HCDfactoryDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF8F1F31BD1700AA61E4 /* HCDfactoryDivide.m */; };
+		7F67CF9B1F31BD1700AA61E4 /* HCDfactoryMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF911F31BD1700AA61E4 /* HCDfactoryMinus.m */; };
+		7F67CF9C1F31BD1700AA61E4 /* HCDfactoryMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF931F31BD1700AA61E4 /* HCDfactoryMultiply.m */; };
+		7F67CF9F1F31BD3100AA61E4 /* DZFactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF9E1F31BD3100AA61E4 /* DZFactoryMethodViewController.m */; };
+		7F67CFB71F31BFC600AA61E4 /* DZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFB61F31BFC600AA61E4 /* DZSingletonViewController.m */; };
+		7F67CFBA1F31BFED00AA61E4 /* DZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFB91F31BFED00AA61E4 /* DZSingleton.m */; };
+		7F67CFCA1F31C19300AA61E4 /* DZAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFC11F31C19300AA61E4 /* DZAdapterViewController.m */; };
+		7F67CFCB1F31C19300AA61E4 /* HCDForeignCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFC31F31C19300AA61E4 /* HCDForeignCenter.m */; };
+		7F67CFCC1F31C19300AA61E4 /* HCDForwards.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFC51F31C19300AA61E4 /* HCDForwards.m */; };
+		7F67CFCD1F31C19300AA61E4 /* HCDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFC71F31C19300AA61E4 /* HCDPlayer.m */; };
+		7F67CFCE1F31C19300AA61E4 /* HCDTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFC91F31C19300AA61E4 /* HCDTranslator.m */; };
+		7F67CFD71F31C28B00AA61E4 /* HCDConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFD21F31C28B00AA61E4 /* HCDConcreteCompany.m */; };
+		7F67CFD81F31C28B00AA61E4 /* HCDFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFD41F31C28B00AA61E4 /* HCDFinanceDepartment.m */; };
+		7F67CFD91F31C28B00AA61E4 /* HCDHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFD61F31C28B00AA61E4 /* HCDHRDepartment.m */; };
+		7F67CFDC1F31C29500AA61E4 /* DZCompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFDB1F31C29500AA61E4 /* DZCompositeViewController.m */; };
 		7F77C7B81E84C36000CDAFE0 /* DZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */; };
 		7F77C7B91E84C36000CDAFE0 /* DZBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B71E84C36000CDAFE0 /* DZBaseViewModel.m */; };
-		7F77C7BF1E84CB7300CDAFE0 /* HomeViewDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F77C7BE1E84CB7300CDAFE0 /* HomeViewDataSource.plist */; };
 		7F77C7C31E84CC2100CDAFE0 /* DZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7C21E84CC2100CDAFE0 /* DZUtils.m */; };
 		7F8220791E8F6D11003A06D2 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8220781E8F6D11003A06D2 /* TestObject.m */; };
 		7F82207C1E8F6D37003A06D2 /* TestObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F82207B1E8F6D37003A06D2 /* TestObject+Test.m */; };
@@ -77,12 +119,100 @@
 		7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFBlockViewController.m; sourceTree = "<group>"; };
 		7F67CF211F29EC8C00AA61E4 /* DZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZViewController.h; sourceTree = "<group>"; };
 		7F67CF221F29EC8C00AA61E4 /* DZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZViewController.m; sourceTree = "<group>"; };
+		7F67CF251F3175B100AA61E4 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		7F67CF261F3175B100AA61E4 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		7F67CF291F3176B800AA61E4 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		7F67CF2A1F3176B800AA61E4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		7F67CF2B1F3176B800AA61E4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		7F67CF2C1F3176B800AA61E4 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		7F67CF2D1F3176B800AA61E4 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		7F67CF2E1F3176B800AA61E4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7F67CF2F1F3176B800AA61E4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7F67CF311F3176B800AA61E4 /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		7F67CF321F3176B800AA61E4 /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		7F67CF341F3176B900AA61E4 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		7F67CF351F3176B900AA61E4 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		7F67CF361F3176B900AA61E4 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		7F67CF371F3176B900AA61E4 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		7F67CF381F3176B900AA61E4 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		7F67CF391F3176B900AA61E4 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		7F67CF3A1F3176B900AA61E4 /* NSObject+JSONExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONExtension.h"; sourceTree = "<group>"; };
+		7F67CF3B1F3176B900AA61E4 /* NSObject+JSONExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONExtension.m"; sourceTree = "<group>"; };
+		7F67CF3C1F3176B900AA61E4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7F67CF3D1F3176B900AA61E4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7F67CF471F31784B00AA61E4 /* model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		7F67CF4A1F317AB500AA61E4 /* DZRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZRouter.h; sourceTree = "<group>"; };
+		7F67CF4B1F317AB500AA61E4 /* DZRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZRouter.m; sourceTree = "<group>"; };
+		7F67CF4D1F318A2600AA61E4 /* DZBlockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBlockObject.h; sourceTree = "<group>"; };
+		7F67CF4E1F318A2600AA61E4 /* DZBlockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBlockObject.m; sourceTree = "<group>"; };
+		7F67CF521F31ABF100AA61E4 /* DZKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZKVCViewController.h; sourceTree = "<group>"; };
+		7F67CF531F31ABF100AA61E4 /* DZKVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZKVCViewController.m; sourceTree = "<group>"; };
+		7F67CF551F31ABFD00AA61E4 /* DZKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZKVOViewController.h; sourceTree = "<group>"; };
+		7F67CF561F31ABFD00AA61E4 /* DZKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZKVOViewController.m; sourceTree = "<group>"; };
+		7F67CF691F31B25C00AA61E4 /* DZPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPresentViewController.h; sourceTree = "<group>"; };
+		7F67CF6A1F31B25C00AA61E4 /* DZPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPresentViewController.m; sourceTree = "<group>"; };
+		7F67CF6D1F31B80D00AA61E4 /* DZSimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSimpleFactoryViewController.h; sourceTree = "<group>"; };
+		7F67CF6E1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSimpleFactoryViewController.m; sourceTree = "<group>"; };
+		7F67CF701F31B89000AA61E4 /* SimpleFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryProtocol.h; sourceTree = "<group>"; };
+		7F67CF711F31B90800AA61E4 /* DZSportCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSportCar.h; sourceTree = "<group>"; };
+		7F67CF721F31B90800AA61E4 /* DZSportCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSportCar.m; sourceTree = "<group>"; };
+		7F67CF741F31B91700AA61E4 /* DZJeepCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZJeepCar.h; sourceTree = "<group>"; };
+		7F67CF751F31B91700AA61E4 /* DZJeepCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZJeepCar.m; sourceTree = "<group>"; };
+		7F67CF771F31B92400AA61E4 /* DZHatchbackCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHatchbackCar.h; sourceTree = "<group>"; };
+		7F67CF781F31B92400AA61E4 /* DZHatchbackCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHatchbackCar.m; sourceTree = "<group>"; };
+		7F67CF7A1F31B93E00AA61E4 /* DZSimpleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSimpleFactory.h; sourceTree = "<group>"; };
+		7F67CF7B1F31B93E00AA61E4 /* DZSimpleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSimpleFactory.m; sourceTree = "<group>"; };
+		7F67CF7D1F31BA8700AA61E4 /* DZCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCar.h; sourceTree = "<group>"; };
+		7F67CF7E1F31BA8700AA61E4 /* DZCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCar.m; sourceTree = "<group>"; };
+		7F67CF811F31BD1700AA61E4 /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
+		7F67CF821F31BD1700AA61E4 /* HCDCalculateAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateAdd.h; sourceTree = "<group>"; };
+		7F67CF831F31BD1700AA61E4 /* HCDCalculateAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateAdd.m; sourceTree = "<group>"; };
+		7F67CF841F31BD1700AA61E4 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
+		7F67CF851F31BD1700AA61E4 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
+		7F67CF861F31BD1700AA61E4 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
+		7F67CF871F31BD1700AA61E4 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
+		7F67CF881F31BD1700AA61E4 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
+		7F67CF891F31BD1700AA61E4 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
+		7F67CF8A1F31BD1700AA61E4 /* HCDfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactory.h; sourceTree = "<group>"; };
+		7F67CF8B1F31BD1700AA61E4 /* HCDfactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactory.m; sourceTree = "<group>"; };
+		7F67CF8C1F31BD1700AA61E4 /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
+		7F67CF8D1F31BD1700AA61E4 /* HCDfactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryAdd.m; sourceTree = "<group>"; };
+		7F67CF8E1F31BD1700AA61E4 /* HCDfactoryDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryDivide.h; sourceTree = "<group>"; };
+		7F67CF8F1F31BD1700AA61E4 /* HCDfactoryDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryDivide.m; sourceTree = "<group>"; };
+		7F67CF901F31BD1700AA61E4 /* HCDfactoryMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMinus.h; sourceTree = "<group>"; };
+		7F67CF911F31BD1700AA61E4 /* HCDfactoryMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMinus.m; sourceTree = "<group>"; };
+		7F67CF921F31BD1700AA61E4 /* HCDfactoryMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMultiply.h; sourceTree = "<group>"; };
+		7F67CF931F31BD1700AA61E4 /* HCDfactoryMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryMultiply.m; sourceTree = "<group>"; };
+		7F67CF9D1F31BD3100AA61E4 /* DZFactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZFactoryMethodViewController.h; sourceTree = "<group>"; };
+		7F67CF9E1F31BD3100AA61E4 /* DZFactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZFactoryMethodViewController.m; sourceTree = "<group>"; };
+		7F67CFB51F31BFC600AA61E4 /* DZSingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSingletonViewController.h; sourceTree = "<group>"; };
+		7F67CFB61F31BFC600AA61E4 /* DZSingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSingletonViewController.m; sourceTree = "<group>"; };
+		7F67CFB81F31BFED00AA61E4 /* DZSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSingleton.h; sourceTree = "<group>"; };
+		7F67CFB91F31BFED00AA61E4 /* DZSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSingleton.m; sourceTree = "<group>"; };
+		7F67CFC01F31C19300AA61E4 /* DZAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZAdapterViewController.h; sourceTree = "<group>"; };
+		7F67CFC11F31C19300AA61E4 /* DZAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZAdapterViewController.m; sourceTree = "<group>"; };
+		7F67CFC21F31C19300AA61E4 /* HCDForeignCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForeignCenter.h; sourceTree = "<group>"; };
+		7F67CFC31F31C19300AA61E4 /* HCDForeignCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForeignCenter.m; sourceTree = "<group>"; };
+		7F67CFC41F31C19300AA61E4 /* HCDForwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDForwards.h; sourceTree = "<group>"; };
+		7F67CFC51F31C19300AA61E4 /* HCDForwards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDForwards.m; sourceTree = "<group>"; };
+		7F67CFC61F31C19300AA61E4 /* HCDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPlayer.h; sourceTree = "<group>"; };
+		7F67CFC71F31C19300AA61E4 /* HCDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPlayer.m; sourceTree = "<group>"; };
+		7F67CFC81F31C19300AA61E4 /* HCDTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDTranslator.h; sourceTree = "<group>"; };
+		7F67CFC91F31C19300AA61E4 /* HCDTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDTranslator.m; sourceTree = "<group>"; };
+		7F67CFD01F31C28B00AA61E4 /* HCDCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCompany.h; sourceTree = "<group>"; };
+		7F67CFD11F31C28B00AA61E4 /* HCDConcreteCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcreteCompany.h; sourceTree = "<group>"; };
+		7F67CFD21F31C28B00AA61E4 /* HCDConcreteCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcreteCompany.m; sourceTree = "<group>"; };
+		7F67CFD31F31C28B00AA61E4 /* HCDFinanceDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDFinanceDepartment.h; sourceTree = "<group>"; };
+		7F67CFD41F31C28B00AA61E4 /* HCDFinanceDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDFinanceDepartment.m; sourceTree = "<group>"; };
+		7F67CFD51F31C28B00AA61E4 /* HCDHRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDHRDepartment.h; sourceTree = "<group>"; };
+		7F67CFD61F31C28B00AA61E4 /* HCDHRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDHRDepartment.m; sourceTree = "<group>"; };
+		7F67CFDA1F31C29500AA61E4 /* DZCompositeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCompositeViewController.h; sourceTree = "<group>"; };
+		7F67CFDB1F31C29500AA61E4 /* DZCompositeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCompositeViewController.m; sourceTree = "<group>"; };
 		7F77C7B31E84C36000CDAFE0 /* DZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewController.h; sourceTree = "<group>"; };
 		7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBaseViewController.m; sourceTree = "<group>"; };
 		7F77C7B61E84C36000CDAFE0 /* DZBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewModel.h; sourceTree = "<group>"; };
 		7F77C7B71E84C36000CDAFE0 /* DZBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBaseViewModel.m; sourceTree = "<group>"; };
 		7F77C7BC1E84CAD400CDAFE0 /* DZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZConstants.h; sourceTree = "<group>"; };
-		7F77C7BE1E84CB7300CDAFE0 /* HomeViewDataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeViewDataSource.plist; sourceTree = "<group>"; };
 		7F77C7C11E84CC2100CDAFE0 /* DZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZUtils.h; sourceTree = "<group>"; };
 		7F77C7C21E84CC2100CDAFE0 /* DZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZUtils.m; sourceTree = "<group>"; };
 		7F8220771E8F6D11003A06D2 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
@@ -116,6 +246,9 @@
 		7F3556331E83D6E2001AC486 /* MVCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7F67CF681F31B24800AA61E4 /* PresentAnimation */,
+				7F67CF501F31ABDB00AA61E4 /* KVC */,
+				7F67CF511F31ABDB00AA61E4 /* KVO */,
 				7F67CF1D1F29EC5800AA61E4 /* Block */,
 				7F67CF081F29E25800AA61E4 /* Runloop */,
 				7F67CF041F29E1E900AA61E4 /* DesignPattern */,
@@ -156,6 +289,11 @@
 		7F67CEFF1F29E0F600AA61E4 /* Rumtime */ = {
 			isa = PBXGroup;
 			children = (
+				7F67CF491F317AA500AA61E4 /* Router */,
+				7F67CF281F3176B800AA61E4 /* Archive */,
+				7F67CF301F3176B800AA61E4 /* AssociatedObject */,
+				7F67CF331F3176B900AA61E4 /* JsonParser */,
+				7F67CF241F31759F00AA61E4 /* ChangeMethod */,
 				7F67CF001F29E0F600AA61E4 /* DZRuntimeViewController.h */,
 				7F67CF011F29E0F600AA61E4 /* DZRuntimeViewController.m */,
 			);
@@ -165,6 +303,11 @@
 		7F67CF041F29E1E900AA61E4 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7F67CFCF1F31C28B00AA61E4 /* Composite */,
+				7F67CFBF1F31C19300AA61E4 /* Adapter */,
+				7F67CFB41F31BFB900AA61E4 /* Singleton */,
+				7F67CF801F31BD1600AA61E4 /* FactoryMethod */,
+				7F67CF6C1F31B7FE00AA61E4 /* SimpleFactory */,
 				7F67CF051F29E20400AA61E4 /* DZDesignPatternViewController.h */,
 				7F67CF061F29E20400AA61E4 /* DZDesignPatternViewController.m */,
 			);
@@ -202,8 +345,187 @@
 			children = (
 				7F67CF1E1F29EC6500AA61E4 /* OFBlockViewController.h */,
 				7F67CF1F1F29EC6500AA61E4 /* OFBlockViewController.m */,
+				7F67CF4D1F318A2600AA61E4 /* DZBlockObject.h */,
+				7F67CF4E1F318A2600AA61E4 /* DZBlockObject.m */,
 			);
 			path = Block;
+			sourceTree = "<group>";
+		};
+		7F67CF241F31759F00AA61E4 /* ChangeMethod */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF251F3175B100AA61E4 /* UIImage+Category.h */,
+				7F67CF261F3175B100AA61E4 /* UIImage+Category.m */,
+			);
+			path = ChangeMethod;
+			sourceTree = "<group>";
+		};
+		7F67CF281F3176B800AA61E4 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF291F3176B800AA61E4 /* decode.h */,
+				7F67CF2A1F3176B800AA61E4 /* Dog.h */,
+				7F67CF2B1F3176B800AA61E4 /* Dog.m */,
+				7F67CF2C1F3176B800AA61E4 /* NSObject+Extension.h */,
+				7F67CF2D1F3176B800AA61E4 /* NSObject+Extension.m */,
+				7F67CF2E1F3176B800AA61E4 /* Person.h */,
+				7F67CF2F1F3176B800AA61E4 /* Person.m */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		7F67CF301F3176B800AA61E4 /* AssociatedObject */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF311F3176B800AA61E4 /* NSObject+Category.h */,
+				7F67CF321F3176B800AA61E4 /* NSObject+Category.m */,
+			);
+			path = AssociatedObject;
+			sourceTree = "<group>";
+		};
+		7F67CF331F3176B900AA61E4 /* JsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF341F3176B900AA61E4 /* Book.h */,
+				7F67CF351F3176B900AA61E4 /* Book.m */,
+				7F67CF361F3176B900AA61E4 /* Cat.h */,
+				7F67CF371F3176B900AA61E4 /* Cat.m */,
+				7F67CF381F3176B900AA61E4 /* Fish.h */,
+				7F67CF391F3176B900AA61E4 /* Fish.m */,
+				7F67CF3A1F3176B900AA61E4 /* NSObject+JSONExtension.h */,
+				7F67CF3B1F3176B900AA61E4 /* NSObject+JSONExtension.m */,
+				7F67CF3C1F3176B900AA61E4 /* User.h */,
+				7F67CF3D1F3176B900AA61E4 /* User.m */,
+			);
+			path = JsonParser;
+			sourceTree = "<group>";
+		};
+		7F67CF491F317AA500AA61E4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF4A1F317AB500AA61E4 /* DZRouter.h */,
+				7F67CF4B1F317AB500AA61E4 /* DZRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7F67CF501F31ABDB00AA61E4 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF521F31ABF100AA61E4 /* DZKVCViewController.h */,
+				7F67CF531F31ABF100AA61E4 /* DZKVCViewController.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		7F67CF511F31ABDB00AA61E4 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF551F31ABFD00AA61E4 /* DZKVOViewController.h */,
+				7F67CF561F31ABFD00AA61E4 /* DZKVOViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		7F67CF681F31B24800AA61E4 /* PresentAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF691F31B25C00AA61E4 /* DZPresentViewController.h */,
+				7F67CF6A1F31B25C00AA61E4 /* DZPresentViewController.m */,
+			);
+			path = PresentAnimation;
+			sourceTree = "<group>";
+		};
+		7F67CF6C1F31B7FE00AA61E4 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF6D1F31B80D00AA61E4 /* DZSimpleFactoryViewController.h */,
+				7F67CF6E1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m */,
+				7F67CF701F31B89000AA61E4 /* SimpleFactoryProtocol.h */,
+				7F67CF7D1F31BA8700AA61E4 /* DZCar.h */,
+				7F67CF7E1F31BA8700AA61E4 /* DZCar.m */,
+				7F67CF711F31B90800AA61E4 /* DZSportCar.h */,
+				7F67CF721F31B90800AA61E4 /* DZSportCar.m */,
+				7F67CF741F31B91700AA61E4 /* DZJeepCar.h */,
+				7F67CF751F31B91700AA61E4 /* DZJeepCar.m */,
+				7F67CF771F31B92400AA61E4 /* DZHatchbackCar.h */,
+				7F67CF781F31B92400AA61E4 /* DZHatchbackCar.m */,
+				7F67CF7A1F31B93E00AA61E4 /* DZSimpleFactory.h */,
+				7F67CF7B1F31B93E00AA61E4 /* DZSimpleFactory.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		7F67CF801F31BD1600AA61E4 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CF811F31BD1700AA61E4 /* HCDCalculate.h */,
+				7F67CF821F31BD1700AA61E4 /* HCDCalculateAdd.h */,
+				7F67CF831F31BD1700AA61E4 /* HCDCalculateAdd.m */,
+				7F67CF841F31BD1700AA61E4 /* HCDCalculateDivide.h */,
+				7F67CF851F31BD1700AA61E4 /* HCDCalculateDivide.m */,
+				7F67CF861F31BD1700AA61E4 /* HCDCalculateMinus.h */,
+				7F67CF871F31BD1700AA61E4 /* HCDCalculateMinus.m */,
+				7F67CF881F31BD1700AA61E4 /* HCDCalcuteMultiply.h */,
+				7F67CF891F31BD1700AA61E4 /* HCDCalcuteMultiply.m */,
+				7F67CF8A1F31BD1700AA61E4 /* HCDfactory.h */,
+				7F67CF8B1F31BD1700AA61E4 /* HCDfactory.m */,
+				7F67CF8C1F31BD1700AA61E4 /* HCDfactoryAdd.h */,
+				7F67CF8D1F31BD1700AA61E4 /* HCDfactoryAdd.m */,
+				7F67CF8E1F31BD1700AA61E4 /* HCDfactoryDivide.h */,
+				7F67CF8F1F31BD1700AA61E4 /* HCDfactoryDivide.m */,
+				7F67CF901F31BD1700AA61E4 /* HCDfactoryMinus.h */,
+				7F67CF911F31BD1700AA61E4 /* HCDfactoryMinus.m */,
+				7F67CF921F31BD1700AA61E4 /* HCDfactoryMultiply.h */,
+				7F67CF931F31BD1700AA61E4 /* HCDfactoryMultiply.m */,
+				7F67CF9D1F31BD3100AA61E4 /* DZFactoryMethodViewController.h */,
+				7F67CF9E1F31BD3100AA61E4 /* DZFactoryMethodViewController.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		7F67CFB41F31BFB900AA61E4 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CFB51F31BFC600AA61E4 /* DZSingletonViewController.h */,
+				7F67CFB61F31BFC600AA61E4 /* DZSingletonViewController.m */,
+				7F67CFB81F31BFED00AA61E4 /* DZSingleton.h */,
+				7F67CFB91F31BFED00AA61E4 /* DZSingleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		7F67CFBF1F31C19300AA61E4 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CFC01F31C19300AA61E4 /* DZAdapterViewController.h */,
+				7F67CFC11F31C19300AA61E4 /* DZAdapterViewController.m */,
+				7F67CFC21F31C19300AA61E4 /* HCDForeignCenter.h */,
+				7F67CFC31F31C19300AA61E4 /* HCDForeignCenter.m */,
+				7F67CFC41F31C19300AA61E4 /* HCDForwards.h */,
+				7F67CFC51F31C19300AA61E4 /* HCDForwards.m */,
+				7F67CFC61F31C19300AA61E4 /* HCDPlayer.h */,
+				7F67CFC71F31C19300AA61E4 /* HCDPlayer.m */,
+				7F67CFC81F31C19300AA61E4 /* HCDTranslator.h */,
+				7F67CFC91F31C19300AA61E4 /* HCDTranslator.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		7F67CFCF1F31C28B00AA61E4 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CFD01F31C28B00AA61E4 /* HCDCompany.h */,
+				7F67CFD11F31C28B00AA61E4 /* HCDConcreteCompany.h */,
+				7F67CFD21F31C28B00AA61E4 /* HCDConcreteCompany.m */,
+				7F67CFD31F31C28B00AA61E4 /* HCDFinanceDepartment.h */,
+				7F67CFD41F31C28B00AA61E4 /* HCDFinanceDepartment.m */,
+				7F67CFD51F31C28B00AA61E4 /* HCDHRDepartment.h */,
+				7F67CFD61F31C28B00AA61E4 /* HCDHRDepartment.m */,
+				7F67CFDA1F31C29500AA61E4 /* DZCompositeViewController.h */,
+				7F67CFDB1F31C29500AA61E4 /* DZCompositeViewController.m */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 		7F77C7B11E84C36000CDAFE0 /* BaseView */ = {
@@ -255,7 +577,7 @@
 		7F77C7BD1E84CB3900CDAFE0 /* SourceFiles */ = {
 			isa = PBXGroup;
 			children = (
-				7F77C7BE1E84CB7300CDAFE0 /* HomeViewDataSource.plist */,
+				7F67CF471F31784B00AA61E4 /* model.json */,
 			);
 			path = SourceFiles;
 			sourceTree = "<group>";
@@ -390,9 +712,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FDCF8A11E80DE1000408069 /* LaunchScreen.storyboard in Resources */,
-				7F77C7BF1E84CB7300CDAFE0 /* HomeViewDataSource.plist in Resources */,
 				7FDCF89E1E80DE1000408069 /* Assets.xcassets in Resources */,
 				7FDCF8991E80DE1000408069 /* Main.storyboard in Resources */,
+				7F67CF481F31784B00AA61E4 /* model.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,33 +725,75 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F67CF791F31B92400AA61E4 /* DZHatchbackCar.m in Sources */,
+				7F67CF461F3176B900AA61E4 /* User.m in Sources */,
 				7F67CF141F29E2F700AA61E4 /* GCDLoadViewController.m in Sources */,
+				7F67CF6B1F31B25C00AA61E4 /* DZPresentViewController.m in Sources */,
+				7F67CF731F31B90800AA61E4 /* DZSportCar.m in Sources */,
+				7F67CF9A1F31BD1700AA61E4 /* HCDfactoryDivide.m in Sources */,
 				7F67CF0B1F29E26300AA61E4 /* DZRunloopViewController.m in Sources */,
+				7F67CF9B1F31BD1700AA61E4 /* HCDfactoryMinus.m in Sources */,
+				7F67CF7F1F31BA8700AA61E4 /* DZCar.m in Sources */,
 				7F370F941F1365BD00BDC51C /* DZPopTransition.m in Sources */,
+				7F67CF941F31BD1700AA61E4 /* HCDCalculateAdd.m in Sources */,
+				7F67CFCC1F31C19300AA61E4 /* HCDForwards.m in Sources */,
+				7F67CF6F1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m in Sources */,
 				7F67CF1C1F29E35000AA61E4 /* UIView+Toast.m in Sources */,
+				7F67CF421F3176B900AA61E4 /* Book.m in Sources */,
+				7F67CF9C1F31BD1700AA61E4 /* HCDfactoryMultiply.m in Sources */,
+				7F67CFD81F31C28B00AA61E4 /* HCDFinanceDepartment.m in Sources */,
+				7F67CF451F3176B900AA61E4 /* NSObject+JSONExtension.m in Sources */,
+				7F67CFCA1F31C19300AA61E4 /* DZAdapterViewController.m in Sources */,
+				7F67CF3E1F3176B900AA61E4 /* Dog.m in Sources */,
+				7F67CF431F3176B900AA61E4 /* Cat.m in Sources */,
+				7F67CF971F31BD1700AA61E4 /* HCDCalcuteMultiply.m in Sources */,
+				7F67CF961F31BD1700AA61E4 /* HCDCalculateMinus.m in Sources */,
 				7F370F851F1355F100BDC51C /* DZLoginViewController.m in Sources */,
 				7F77C7B81E84C36000CDAFE0 /* DZBaseViewController.m in Sources */,
+				7F67CFD71F31C28B00AA61E4 /* HCDConcreteCompany.m in Sources */,
 				7F77C7B91E84C36000CDAFE0 /* DZBaseViewModel.m in Sources */,
 				7F8220791E8F6D11003A06D2 /* TestObject.m in Sources */,
+				7F67CF401F3176B900AA61E4 /* Person.m in Sources */,
+				7F67CF7C1F31B93E00AA61E4 /* DZSimpleFactory.m in Sources */,
+				7F67CF4F1F318A2600AA61E4 /* DZBlockObject.m in Sources */,
 				7F67CF171F29E2F700AA61E4 /* NSThreadLoadViewController.m in Sources */,
 				7F67CF031F29E0F600AA61E4 /* DZRuntimeViewController.m in Sources */,
+				7F67CF4C1F317AB500AA61E4 /* DZRouter.m in Sources */,
 				7FDCF8931E80DE1000408069 /* AppDelegate.m in Sources */,
+				7F67CF761F31B91700AA61E4 /* DZJeepCar.m in Sources */,
+				7F67CFCD1F31C19300AA61E4 /* HCDPlayer.m in Sources */,
+				7F67CF571F31ABFD00AA61E4 /* DZKVOViewController.m in Sources */,
+				7F67CF991F31BD1700AA61E4 /* HCDfactoryAdd.m in Sources */,
+				7F67CF441F3176B900AA61E4 /* Fish.m in Sources */,
 				7F67CF021F29E0F600AA61E4 /* DZMultithreadingViewController.m in Sources */,
+				7F67CF981F31BD1700AA61E4 /* HCDfactory.m in Sources */,
 				7F77C7C31E84CC2100CDAFE0 /* DZUtils.m in Sources */,
+				7F67CF411F3176B900AA61E4 /* NSObject+Category.m in Sources */,
 				7F67CF231F29EC8C00AA61E4 /* DZViewController.m in Sources */,
+				7F67CFCE1F31C19300AA61E4 /* HCDTranslator.m in Sources */,
 				7F370F8B1F135BC900BDC51C /* TransPopTool.m in Sources */,
+				7F67CFBA1F31BFED00AA61E4 /* DZSingleton.m in Sources */,
 				7F370F911F13644700BDC51C /* UIViewController+Custom.m in Sources */,
+				7F67CF3F1F3176B900AA61E4 /* NSObject+Extension.m in Sources */,
 				7F370F881F135B2D00BDC51C /* TransPushTool.m in Sources */,
 				7F370F8E1F135FDC00BDC51C /* DZPushTransition.m in Sources */,
 				7FDCF8901E80DE1000408069 /* main.m in Sources */,
+				7F67CF9F1F31BD3100AA61E4 /* DZFactoryMethodViewController.m in Sources */,
 				7FDCF89C1E80DE1000408069 /* DZStudy.xcdatamodeld in Sources */,
 				7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */,
 				7F67CF161F29E2F700AA61E4 /* NSOperationLoadViewController.m in Sources */,
+				7F67CF541F31ABF100AA61E4 /* DZKVCViewController.m in Sources */,
+				7F67CFCB1F31C19300AA61E4 /* HCDForeignCenter.m in Sources */,
 				7F67CF201F29EC6500AA61E4 /* OFBlockViewController.m in Sources */,
+				7F67CF271F3175B100AA61E4 /* UIImage+Category.m in Sources */,
+				7F67CFD91F31C28B00AA61E4 /* HCDHRDepartment.m in Sources */,
 				7FDCF8B01E80DFCB00408069 /* ViewController.m in Sources */,
 				7F67CF151F29E2F700AA61E4 /* LoadImageOperation.m in Sources */,
+				7F67CFB71F31BFC600AA61E4 /* DZSingletonViewController.m in Sources */,
+				7F67CFDC1F31C29500AA61E4 /* DZCompositeViewController.m in Sources */,
 				7F82207C1E8F6D37003A06D2 /* TestObject+Test.m in Sources */,
 				7F67CF071F29E20400AA61E4 /* DZDesignPatternViewController.m in Sources */,
+				7F67CF951F31BD1700AA61E4 /* HCDCalculateDivide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,105 +28,30 @@
 
 @implementation ViewController
 
-- (void)pushLoginView:(id)sender {
-    DZLoginViewController *loginView = [DZLoginViewController new];
-    [self.navigationController pushViewController:loginView animated:YES];
-}
-
 - (instancetype)initWithCoder:aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-//        self.dataSource = [DZUtils dataSourceWithFileName:@"HomeViewDataSource"];
         NSMutableArray *dataArray = [NSMutableArray array];
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"Runloop";
-            model.controllerName = @"DZRunloopViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"Runtime";
-            model.controllerName = @"DZRuntimeViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"排序";
-            model.controllerName = @"DZSortViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"多线程";
-            model.controllerName = @"DZMultithreadingViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"设计模式";
-            model.controllerName = @"DZDesignPatternViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"Block";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"开源库";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"插件";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"网络";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"推送";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"架构演进";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"web交互";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
-        {
-            DZBaseViewModel *model = [DZBaseViewModel new];
-            model.title = @"使用的工具";
-            model.controllerName = @"OFBlockViewController";
-            [dataArray addObject:model];
-        }
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Runloop" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Runtime" controllerName:@"DZRuntimeViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"排序" controllerName:@"DZSortViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"多线程" controllerName:@"DZMultithreadingViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"设计模式" controllerName:@"DZDesignPatternViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Block" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"开源库" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"插件" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"网络" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"推送" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"架构演进" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"web交互" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"使用的工具" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"KVO" controllerName:@"DZKVOViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"KVC" controllerName:@"DZKVCViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Push修改为Present" controllerName:@"DZPresentViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Swift" controllerName:@"OFBlockViewController"]];
         self.dataSource = dataArray;
     }
     return self;
-}
-
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    [_button addTarget:self action:@selector(pushLoginView:) forControlEvents:UIControlEventTouchUpInside];
-    self.title = @"DZ";
 }
 
 @end
