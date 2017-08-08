@@ -43,10 +43,6 @@
     DZBaseViewModel *model = [self.dataSource objectAtIndex:indexPath.row];
     SEL selector = NSSelectorFromString(model.methodName);
     [self performSelector:selector withObject:@(indexPath.row)];
-    
-    SFSafariViewController *safariVC = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:model.webURL]];
-    safariVC.delegate = self;
-    [self presentViewController:safariVC animated:YES completion:nil];
 }
 
 #pragma mark - SFSafariViewControllerDelegate

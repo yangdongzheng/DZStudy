@@ -13,6 +13,8 @@
 		7F370F8E1F135FDC00BDC51C /* DZPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F8D1F135FDC00BDC51C /* DZPushTransition.m */; };
 		7F370F911F13644700BDC51C /* UIViewController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F901F13644700BDC51C /* UIViewController+Custom.m */; };
 		7F370F941F1365BD00BDC51C /* DZPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F370F931F1365BD00BDC51C /* DZPopTransition.m */; };
+		7F5C93B21F396245001E4D43 /* ADCHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C93B11F396245001E4D43 /* ADCHero.m */; };
+		7F5C93B51F396326001E4D43 /* AsistantHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C93B41F396326001E4D43 /* AsistantHero.m */; };
 		7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CEFA1F28AE2C00AA61E4 /* DZSortViewController.m */; };
 		7F67CF021F29E0F600AA61E4 /* DZMultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CEFE1F29E0F600AA61E4 /* DZMultithreadingViewController.m */; };
 		7F67CF031F29E0F600AA61E4 /* DZRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CF011F29E0F600AA61E4 /* DZRuntimeViewController.m */; };
@@ -68,6 +70,8 @@
 		7F67CFD81F31C28B00AA61E4 /* HCDFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFD41F31C28B00AA61E4 /* HCDFinanceDepartment.m */; };
 		7F67CFD91F31C28B00AA61E4 /* HCDHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFD61F31C28B00AA61E4 /* HCDHRDepartment.m */; };
 		7F67CFDC1F31C29500AA61E4 /* DZCompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFDB1F31C29500AA61E4 /* DZCompositeViewController.m */; };
+		7F67CFE01F32D6D500AA61E4 /* DZMessageForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFDF1F32D6D500AA61E4 /* DZMessageForwardViewController.m */; };
+		7F67CFE41F32D93E00AA61E4 /* DZThirdLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67CFE31F32D93E00AA61E4 /* DZThirdLibraryViewController.m */; };
 		7F77C7B81E84C36000CDAFE0 /* DZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */; };
 		7F77C7B91E84C36000CDAFE0 /* DZBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7B71E84C36000CDAFE0 /* DZBaseViewModel.m */; };
 		7F77C7C31E84CC2100CDAFE0 /* DZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C7C21E84CC2100CDAFE0 /* DZUtils.m */; };
@@ -80,6 +84,8 @@
 		7FDCF89E1E80DE1000408069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCF89D1E80DE1000408069 /* Assets.xcassets */; };
 		7FDCF8A11E80DE1000408069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCF89F1E80DE1000408069 /* LaunchScreen.storyboard */; };
 		7FDCF8B01E80DFCB00408069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCF8AF1E80DFCB00408069 /* ViewController.m */; };
+		7FE40EB41F3893E400C2D566 /* DZToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EB31F3893E400C2D566 /* DZToolsViewController.m */; };
+		7FE40EB81F38982000C2D566 /* DZPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EB71F38982000C2D566 /* DZPluginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +101,10 @@
 		7F370F901F13644700BDC51C /* UIViewController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Custom.m"; sourceTree = "<group>"; };
 		7F370F921F1365BD00BDC51C /* DZPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPopTransition.h; sourceTree = "<group>"; };
 		7F370F931F1365BD00BDC51C /* DZPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPopTransition.m; sourceTree = "<group>"; };
+		7F5C93B01F396245001E4D43 /* ADCHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCHero.h; sourceTree = "<group>"; };
+		7F5C93B11F396245001E4D43 /* ADCHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCHero.m; sourceTree = "<group>"; };
+		7F5C93B31F396326001E4D43 /* AsistantHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsistantHero.h; sourceTree = "<group>"; };
+		7F5C93B41F396326001E4D43 /* AsistantHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsistantHero.m; sourceTree = "<group>"; };
 		7F67CEF91F28AE2C00AA61E4 /* DZSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSortViewController.h; sourceTree = "<group>"; };
 		7F67CEFA1F28AE2C00AA61E4 /* DZSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSortViewController.m; sourceTree = "<group>"; };
 		7F67CEFD1F29E0F600AA61E4 /* DZMultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMultithreadingViewController.h; sourceTree = "<group>"; };
@@ -208,6 +218,10 @@
 		7F67CFD61F31C28B00AA61E4 /* HCDHRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDHRDepartment.m; sourceTree = "<group>"; };
 		7F67CFDA1F31C29500AA61E4 /* DZCompositeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCompositeViewController.h; sourceTree = "<group>"; };
 		7F67CFDB1F31C29500AA61E4 /* DZCompositeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCompositeViewController.m; sourceTree = "<group>"; };
+		7F67CFDE1F32D6D500AA61E4 /* DZMessageForwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMessageForwardViewController.h; sourceTree = "<group>"; };
+		7F67CFDF1F32D6D500AA61E4 /* DZMessageForwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMessageForwardViewController.m; sourceTree = "<group>"; };
+		7F67CFE21F32D93E00AA61E4 /* DZThirdLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZThirdLibraryViewController.h; sourceTree = "<group>"; };
+		7F67CFE31F32D93E00AA61E4 /* DZThirdLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZThirdLibraryViewController.m; sourceTree = "<group>"; };
 		7F77C7B31E84C36000CDAFE0 /* DZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewController.h; sourceTree = "<group>"; };
 		7F77C7B41E84C36000CDAFE0 /* DZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBaseViewController.m; sourceTree = "<group>"; };
 		7F77C7B61E84C36000CDAFE0 /* DZBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBaseViewModel.h; sourceTree = "<group>"; };
@@ -230,6 +244,10 @@
 		7FDCF8A21E80DE1000408069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FDCF8AE1E80DFCB00408069 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7FDCF8AF1E80DFCB00408069 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FE40EB21F3893E400C2D566 /* DZToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZToolsViewController.h; sourceTree = "<group>"; };
+		7FE40EB31F3893E400C2D566 /* DZToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZToolsViewController.m; sourceTree = "<group>"; };
+		7FE40EB61F38982000C2D566 /* DZPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPluginViewController.h; sourceTree = "<group>"; };
+		7FE40EB71F38982000C2D566 /* DZPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPluginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +264,10 @@
 		7F3556331E83D6E2001AC486 /* MVCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7FE40EB51F38980000C2D566 /* Plugin */,
+				7FE40EB11F3893D900C2D566 /* Tools */,
+				7F67CFE11F32D90100AA61E4 /* ThirdLibs */,
+				7F67CFDD1F32D6C700AA61E4 /* MessageForward */,
 				7F67CF681F31B24800AA61E4 /* PresentAnimation */,
 				7F67CF501F31ABDB00AA61E4 /* KVC */,
 				7F67CF511F31ABDB00AA61E4 /* KVO */,
@@ -528,6 +550,28 @@
 			path = Composite;
 			sourceTree = "<group>";
 		};
+		7F67CFDD1F32D6C700AA61E4 /* MessageForward */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CFDE1F32D6D500AA61E4 /* DZMessageForwardViewController.h */,
+				7F67CFDF1F32D6D500AA61E4 /* DZMessageForwardViewController.m */,
+				7F5C93B01F396245001E4D43 /* ADCHero.h */,
+				7F5C93B11F396245001E4D43 /* ADCHero.m */,
+				7F5C93B31F396326001E4D43 /* AsistantHero.h */,
+				7F5C93B41F396326001E4D43 /* AsistantHero.m */,
+			);
+			path = MessageForward;
+			sourceTree = "<group>";
+		};
+		7F67CFE11F32D90100AA61E4 /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				7F67CFE21F32D93E00AA61E4 /* DZThirdLibraryViewController.h */,
+				7F67CFE31F32D93E00AA61E4 /* DZThirdLibraryViewController.m */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
 		7F77C7B11E84C36000CDAFE0 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,6 +696,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7FE40EB11F3893D900C2D566 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7FE40EB21F3893E400C2D566 /* DZToolsViewController.h */,
+				7FE40EB31F3893E400C2D566 /* DZToolsViewController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7FE40EB51F38980000C2D566 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				7FE40EB61F38982000C2D566 /* DZPluginViewController.h */,
+				7FE40EB71F38982000C2D566 /* DZPluginViewController.m */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,6 +799,7 @@
 				7F370F941F1365BD00BDC51C /* DZPopTransition.m in Sources */,
 				7F67CF941F31BD1700AA61E4 /* HCDCalculateAdd.m in Sources */,
 				7F67CFCC1F31C19300AA61E4 /* HCDForwards.m in Sources */,
+				7F5C93B21F396245001E4D43 /* ADCHero.m in Sources */,
 				7F67CF6F1F31B80D00AA61E4 /* DZSimpleFactoryViewController.m in Sources */,
 				7F67CF1C1F29E35000AA61E4 /* UIView+Toast.m in Sources */,
 				7F67CF421F3176B900AA61E4 /* Book.m in Sources */,
@@ -757,6 +820,7 @@
 				7F67CF7C1F31B93E00AA61E4 /* DZSimpleFactory.m in Sources */,
 				7F67CF4F1F318A2600AA61E4 /* DZBlockObject.m in Sources */,
 				7F67CF171F29E2F700AA61E4 /* NSThreadLoadViewController.m in Sources */,
+				7F67CFE41F32D93E00AA61E4 /* DZThirdLibraryViewController.m in Sources */,
 				7F67CF031F29E0F600AA61E4 /* DZRuntimeViewController.m in Sources */,
 				7F67CF4C1F317AB500AA61E4 /* DZRouter.m in Sources */,
 				7FDCF8931E80DE1000408069 /* AppDelegate.m in Sources */,
@@ -783,10 +847,14 @@
 				7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */,
 				7F67CF161F29E2F700AA61E4 /* NSOperationLoadViewController.m in Sources */,
 				7F67CF541F31ABF100AA61E4 /* DZKVCViewController.m in Sources */,
+				7F67CFE01F32D6D500AA61E4 /* DZMessageForwardViewController.m in Sources */,
 				7F67CFCB1F31C19300AA61E4 /* HCDForeignCenter.m in Sources */,
 				7F67CF201F29EC6500AA61E4 /* OFBlockViewController.m in Sources */,
+				7F5C93B51F396326001E4D43 /* AsistantHero.m in Sources */,
+				7FE40EB81F38982000C2D566 /* DZPluginViewController.m in Sources */,
 				7F67CF271F3175B100AA61E4 /* UIImage+Category.m in Sources */,
 				7F67CFD91F31C28B00AA61E4 /* HCDHRDepartment.m in Sources */,
+				7FE40EB41F3893E400C2D566 /* DZToolsViewController.m in Sources */,
 				7FDCF8B01E80DFCB00408069 /* ViewController.m in Sources */,
 				7F67CF151F29E2F700AA61E4 /* LoadImageOperation.m in Sources */,
 				7F67CFB71F31BFC600AA61E4 /* DZSingletonViewController.m in Sources */,

@@ -28,18 +28,24 @@
 
 @implementation ViewController
 
+
 - (instancetype)initWithCoder:aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
         NSMutableArray *dataArray = [NSMutableArray array];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Runloop" controllerName:@"DZRunloopViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Runtime" controllerName:@"DZRuntimeViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"消息转发" controllerName:@"DZMessageForwardViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"排序" controllerName:@"DZSortViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"多线程" controllerName:@"DZMultithreadingViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"协议(Protocol)与委托(Delegate)" controllerName:@"DZMultithreadingViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"自动释放池" controllerName:@"DZMultithreadingViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Instruments" controllerName:@"DZMultithreadingViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"设计模式" controllerName:@"DZDesignPatternViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"响应链" controllerName:@"DZDesignPatternViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Block" controllerName:@"OFBlockViewController"]];
-        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"开源库" controllerName:@"OFBlockViewController"]];
-        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"插件" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"三方开源库" controllerName:@"DZThirdLibraryViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"插件" controllerName:@"DZPluginViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"网络" controllerName:@"OFBlockViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"推送" controllerName:@"DZRunloopViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"架构演进" controllerName:@"DZRunloopViewController"]];
@@ -49,9 +55,15 @@
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"KVC" controllerName:@"DZKVCViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Push修改为Present" controllerName:@"DZPresentViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Swift" controllerName:@"OFBlockViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"Mac工具" controllerName:@"DZToolsViewController"]];
         self.dataSource = dataArray;
     }
     return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"ios基础知识";
 }
 
 @end

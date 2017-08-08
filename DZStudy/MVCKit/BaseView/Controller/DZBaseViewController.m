@@ -12,6 +12,7 @@
 #import "TransPushTool.h"
 #import "TransPopTool.h"
 #import "DZPushTransition.h"
+#import <SafariServices/SFSafariViewController.h>
 
 static const CGFloat kMargin = 15.f;
 
@@ -81,12 +82,20 @@ static const CGFloat kMargin = 15.f;
 //    
 //    return;
     
-    DZBaseViewModel *propertyModel = [self.dataSource objectAtIndex:indexPath.row];
-    if (!propertyModel.controllerName) { return; }
-    
-    Class class = NSClassFromString(propertyModel.controllerName);
-    UIViewController *controller = [class new];
-    [self.navigationController pushViewController:controller animated:YES];
+    DZBaseViewModel *model = [self.dataSource objectAtIndex:indexPath.row];
+    if (model.controllerName) {
+        Class class = NSClassFromString(model.controllerName);
+        UIViewController *controller = [class new];
+        controller.title = model.title;
+        [self.navigationController pushViewController:controller animated:YES];
+    } else if (model.webURL) {
+        DZBaseViewModel *model = [self.dataSource objectAtIndex:indexPath.row];
+        SFSafariViewController *safariVC = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:model.webURL]];
+//        safariVC.delegate = self;
+        [self presentViewController:safariVC animated:YES completion:nil];
+    } else if (model.methodName) {
+        
+    }
 }
 
 #pragma mark - Builder

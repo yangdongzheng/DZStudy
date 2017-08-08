@@ -14,9 +14,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageview1;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView2;
 @property (weak, nonatomic) IBOutlet UILabel *loadingLb;
-- (IBAction)onClick:(id)sender;
-
-
 @end
 
 @implementation GCDLoadViewController{
@@ -88,10 +85,8 @@
 //后台执行：加载两张图片
 -(void)globalQueue2{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        
         UIImage *image1 = [self loadImage:imgUrl1];
         UIImage *image2 = [self loadImage:imgUrl2];
-        
         dispatch_async(dispatch_get_main_queue(), ^{
             self.imageview1.image = image1;
             self.imageView2.image = image2;
@@ -102,30 +97,18 @@
 //并发线程组
 -(void)dispatchGroup{
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    
-    
-    dispatch_async(queue, ^{
-        
-        dispatch_group_t group = dispatch_group_create();
-        
-        __block UIImage *image1 = nil;
-        __block UIImage *image2 = nil;
-        
-        
-        dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            image1 = [self loadImage:imgUrl1];
-        });
-        
-        dispatch_group_async(group, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            image2 = [self loadImage:imgUrl2];
-        });
-        
-        
-        dispatch_group_notify(group, dispatch_get_main_queue(), ^{
-            self.imageview1.image = image1;
-            self.imageView2.image = image2;
-            
-        });
+    dispatch_group_t group = dispatch_group_create();
+    __block UIImage *image1 = nil;
+    __block UIImage *image2 = nil;
+    dispatch_group_async(group, queue, ^{
+        image1 = [self loadImage:imgUrl1];
+    });
+    dispatch_group_async(group, queue, ^{
+        image2 = [self loadImage:imgUrl2];
+    });
+    dispatch_group_notify(group, dispatch_get_main_queue(), ^{
+        self.imageview1.image = image1;
+        self.imageView2.image = image2;
     });
 }
 
