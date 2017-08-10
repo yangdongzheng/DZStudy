@@ -86,6 +86,8 @@
 		7FDCF8B01E80DFCB00408069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCF8AF1E80DFCB00408069 /* ViewController.m */; };
 		7FE40EB41F3893E400C2D566 /* DZToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EB31F3893E400C2D566 /* DZToolsViewController.m */; };
 		7FE40EB81F38982000C2D566 /* DZPluginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EB71F38982000C2D566 /* DZPluginViewController.m */; };
+		7FFE00F51F3AC1690085CE9E /* DZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE00F41F3AC1690085CE9E /* DZWebViewController.m */; };
+		7FFE00F81F3AC2860085CE9E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFE00F71F3AC2860085CE9E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -248,6 +250,10 @@
 		7FE40EB31F3893E400C2D566 /* DZToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZToolsViewController.m; sourceTree = "<group>"; };
 		7FE40EB61F38982000C2D566 /* DZPluginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZPluginViewController.h; sourceTree = "<group>"; };
 		7FE40EB71F38982000C2D566 /* DZPluginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZPluginViewController.m; sourceTree = "<group>"; };
+		7FFE00F31F3AC1690085CE9E /* DZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZWebViewController.h; sourceTree = "<group>"; };
+		7FFE00F41F3AC1690085CE9E /* DZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZWebViewController.m; sourceTree = "<group>"; };
+		7FFE00F71F3AC2860085CE9E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7FFE00FC1F3AC5240085CE9E /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFE00F81F3AC2860085CE9E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +271,7 @@
 		7F3556331E83D6E2001AC486 /* MVCKit */ = {
 			isa = PBXGroup;
 			children = (
+				7FFE00F21F3AC1550085CE9E /* Web */,
 				7FE40EB51F38980000C2D566 /* Plugin */,
 				7FE40EB11F3893D900C2D566 /* Tools */,
 				7F67CFE11F32D90100AA61E4 /* ThirdLibs */,
@@ -640,6 +648,7 @@
 			children = (
 				7FDCF88D1E80DE1000408069 /* DZStudy */,
 				7FDCF88C1E80DE1000408069 /* Products */,
+				7FFE00F61F3AC2860085CE9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -712,6 +721,24 @@
 				7FE40EB71F38982000C2D566 /* DZPluginViewController.m */,
 			);
 			path = Plugin;
+			sourceTree = "<group>";
+		};
+		7FFE00F21F3AC1550085CE9E /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE00F31F3AC1690085CE9E /* DZWebViewController.h */,
+				7FFE00F41F3AC1690085CE9E /* DZWebViewController.m */,
+				7FFE00FC1F3AC5240085CE9E /* test.html */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		7FFE00F61F3AC2860085CE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE00F71F3AC2860085CE9E /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -842,6 +869,7 @@
 				7F370F881F135B2D00BDC51C /* TransPushTool.m in Sources */,
 				7F370F8E1F135FDC00BDC51C /* DZPushTransition.m in Sources */,
 				7FDCF8901E80DE1000408069 /* main.m in Sources */,
+				7FFE00F51F3AC1690085CE9E /* DZWebViewController.m in Sources */,
 				7F67CF9F1F31BD3100AA61E4 /* DZFactoryMethodViewController.m in Sources */,
 				7FDCF89C1E80DE1000408069 /* DZStudy.xcdatamodeld in Sources */,
 				7F67CEFB1F28AE2C00AA61E4 /* DZSortViewController.m in Sources */,

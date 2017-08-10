@@ -49,7 +49,7 @@
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"网络" controllerName:@"OFBlockViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"推送" controllerName:@"DZRunloopViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"架构演进" controllerName:@"DZRunloopViewController"]];
-        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"web交互" controllerName:@"DZRunloopViewController"]];
+        [dataArray addObject:[DZBaseViewModel modelWithTitle:@"web交互" controllerName:@"DZWebViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"使用的工具" controllerName:@"DZRunloopViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"KVO" controllerName:@"DZKVOViewController"]];
         [dataArray addObject:[DZBaseViewModel modelWithTitle:@"KVC" controllerName:@"DZKVCViewController"]];
